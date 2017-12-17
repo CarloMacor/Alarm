@@ -1,6 +1,11 @@
 # Alarm
-Android ;  Source code of X-Alarm (present on Google Play)
+Android native;  Source code 
+
 App to wake-up. 
+
+present on Google Play : X-Alarm 
+
+https://play.google.com/store/apps/details?id=com.macormap.lasveglia
 
 
 # Android Studio
