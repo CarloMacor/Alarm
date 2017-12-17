@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">X-Sveglia</string>
+    <string name="action_settings">Settaggio</string>
+
+    <string name="action_undo">Undo</string>
+    <string name="action_infoapp">Info App</string>
+    <string name="action_noadv">No Adv 50c</string>
+    <string name="action_closeapp">Chiudi App</string>
+
+    <!-- un solo carattere per ciascun giorno partendo da Lunedi -->
+    <string name="day_s_0">L</string>
+    <string name="day_s_1">M</string>
+    <string name="day_s_2">M</string>
+    <string name="day_s_3">G</string>
+    <string name="day_s_4">V</string>
+    <string name="day_s_5">S</string>
+    <string name="day_s_6">D</string>
+
+    <string name="str_on">On</string>
+    <string name="str_off">Off</string>
+
+    <string name="str_add_alarm">Aggiungi Sveglia</string>
+    <string name="str_edit_alarm">Modifica Sveglia</string>
+
+    <string name="str_no_alarm_present">Nessuna Sveglia Presente</string>
+    <string name="str_no_alarm_present2">Usa il Bottone in basso</string>
+
+    <string name="str_no_alarm_active">Nessuna Sveglia Attiva</string>
+
+
+    <string name="str_Today">OGGI</string>
+    <string name="str_Tomorrow">DOMANI</string>
+    <string name="str_NextAlarm">Prossima Sveglia</string>
+
+    <string name="str_Hour">Ora</string>
+    <string name="str_Hours">Ore</string>
+    <string name="str_Minute">Minuto </string>
+    <string name="str_Minutes">Minuti</string>
+    <string name="str_and">e</string>
+
+    <string name="str_time_remaning">Tempo rimanente</string>
+
+    <string name="str_name">Nome :</string>
+    <string name="str_alarm">Sveglia</string>
+
+    <string name="str_ringtone">Ringtone :</string>
+    <string name="str_soundtype">Modo Sveglia :</string>
+    <string name="str_volume">Volume :</string>
+    <string name="str_repeat3times">Ripeti 3 volte ogni 5 minuti</string>
+
+    <string name="str_preview">ANTEPRIMA</string>
+    <string name="str_cancel">CANCELLA</string>
+    <string name="str_save">SALVA</string>
+
+    <string name="str_days">Giorni :</string>
+
+    <string name="str_Sunday">DOMENICA</string>
+    <string name="str_Monday">LUNEDI</string>
+    <string name="str_Tuesday">MARTEDI</string>
+    <string name="str_Wednesday">MERCOLEDI</string>
+    <string name="str_Thursday">GIOVEDI</string>
+    <string name="str_Friday">VENERDI</string>
+    <string name="str_Saturday">SABATO</string>
+
+    <string name="str_Stop">STOP ANTEPRIMA</string>
+
+</resources>

@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">X-Wekker</string>
+    <string name="action_settings">Vatting</string>
+
+    <string name="action_undo">Undo</string>
+    <string name="action_infoapp">Info App</string>
+    <string name="action_noadv">No Adv 50c</string>
+    <string name="action_closeapp">Dichtbij App</string>
+
+    <!-- un solo carattere per ciascun giorno partendo da Lunedi -->
+    <string name="day_s_0">M</string>
+    <string name="day_s_1">D</string>
+    <string name="day_s_2">W</string>
+    <string name="day_s_3">D</string>
+    <string name="day_s_4">V</string>
+    <string name="day_s_5">Z</string>
+    <string name="day_s_6">Z</string>
+
+    <string name="str_on">On</string>
+    <string name="str_off">Off</string>
+
+    <string name="str_add_alarm">Toevoegen Wekker</string>
+    <string name="str_edit_alarm">wijziging Wekker</string>
+
+    <string name="str_no_alarm_present">No Wekker</string>
+    <string name="str_no_alarm_present2">Gebruik de knop</string>
+
+    <string name="str_no_alarm_active">Geen actieve Wekker</string>
+
+
+    <string name="str_Today">VANDAAG</string>
+    <string name="str_Tomorrow">MORGEN</string>
+    <string name="str_NextAlarm">Volgende Wekker</string>
+
+    <string name="str_Hour">Uur</string>
+    <string name="str_Hours">Uur</string>
+    <string name="str_Minute">Minuut</string>
+    <string name="str_Minutes">Minutes</string>
+    <string name="str_and">en</string>
+
+    <string name="str_time_remaning">Overgebleven tijd</string>
+
+    <string name="str_name">Naam :</string>
+    <string name="str_alarm">Wekker</string>
+
+    <string name="str_ringtone">Ringtone :</string>
+    <string name="str_soundtype">Sound type :</string>
+    <string name="str_volume">Volume :</string>
+    <string name="str_repeat3times">Herhaal 3 keer na 5 minuten</string>
+
+    <string name="str_preview">VOORBEELD</string>
+    <string name="str_cancel">CANCEL</string>
+    <string name="str_save">SAVE</string>
+
+    <string name="str_days">Dagen :</string>
+
+    <string name="str_Sunday">ZONDAG</string>
+    <string name="str_Monday">MAANDAG</string>
+    <string name="str_Tuesday">DINSDAG</string>
+    <string name="str_Wednesday">WOENSDAG</string>
+    <string name="str_Thursday">DONDERDAG</string>
+    <string name="str_Friday">VRIJDAG</string>
+    <string name="str_Saturday">ZATERDAG</string>
+
+    <string name="str_Stop">STOP</string>
+
+</resources>

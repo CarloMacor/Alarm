@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/idrowlayout"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@drawable/row_background"
+    >
+
+
+  <!-- first column sx -->
+  <LinearLayout
+      android:layout_width="0dp"
+      android:layout_height="match_parent"
+      android:layout_weight="2"
+      android:orientation="vertical" >
+    <!-- Time Wake Up Alarm -->
+    <TextView
+        android:id="@+id/idTimeAlarm"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:text="Orario"
+        android:textStyle="bold"
+        android:clickable="false"
+        android:layout_marginTop="16dp"
+        android:textSize="40dp"
+        android:textColor="@color/colorBlack"
+        android:layout_marginLeft="16dp"
+        />
+    <!-- Days active Alarm -->
+    <TextView
+        android:id="@+id/idWhen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quando"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:clickable="false"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+     />
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="0dp"
+      android:layout_height="match_parent"
+      android:layout_weight="2.5"
+      android:orientation="vertical" >
+
+    <!-- Name of Alarm -->
+    <TextView
+        android:id="@+id/idNameAlarm"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:text="Name"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:clickable="false"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp" />
+
+    <!-- Edit Alarm with Button -->
+    <ImageButton
+        android:id="@+id/idEditAlarm"
+        android:layout_weight="2"
+        android:layout_width="60dp"
+        android:layout_height="0dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/ic_mode_edit_white_48px"
+        android:paddingLeft="8dp"
+        android:paddingBottom="16dp"
+        android:paddingTop="0dp"
+        android:paddingRight="8dp"
+        />
+
+  </LinearLayout>
+
+  <!-- dx alarm icon and OnOff Text -->
+  <LinearLayout
+      android:layout_width="0dp"
+      android:layout_height="match_parent"
+      android:layout_weight="1"
+      android:orientation="vertical" >
+    <!-- On Off txt Alarm -->
+    <TextView
+        android:id="@+id/idtxtOnOff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="On"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="0dp"
+      />
+    <!-- On Off Alarm with Button -->
+    <ImageButton
+        android:id="@+id/idOnOffAlarm"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/ic_alarm_on_black_48dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+ />
+  </LinearLayout>
+
+
+
+
+</LinearLayout>
+

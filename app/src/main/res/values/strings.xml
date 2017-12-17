@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">X-Alarm</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="action_undo">Undo</string>
+    <string name="action_infoapp">Info App</string>
+    <string name="action_noadv">No Adv 50c</string>
+    <string name="action_closeapp">Close App</string>
+
+
+
+
+    <!-- un solo carattere per ciascun giorno partendo da Lunedi -->
+    <string name="day_s_0">M</string>
+    <string name="day_s_1">T</string>
+    <string name="day_s_2">W</string>
+    <string name="day_s_3">T</string>
+    <string name="day_s_4">F</string>
+    <string name="day_s_5">S</string>
+    <string name="day_s_6">S</string>
+
+    <string name="str_on">On</string>
+    <string name="str_off">Off</string>
+
+    <string name="str_add_alarm">Add New Alarm</string>
+    <string name="str_edit_alarm">Edit Alarm</string>
+
+    <string name="str_no_alarm_present">No Upcoming Alarms</string>
+    <string name="str_no_alarm_present2">Use the Plus Button</string>
+
+    <string name="str_no_alarm_active">None Active Alarms</string>
+
+
+    <string name="str_Today">TODAY</string>
+    <string name="str_Tomorrow">TOMORROW</string>
+    <string name="str_NextAlarm">Next Alarm</string>
+
+    <string name="str_Hour">Hour</string>
+    <string name="str_Hours">Hours</string>
+    <string name="str_Minute">Minute </string>
+    <string name="str_Minutes">Minutes</string>
+    <string name="str_and">and</string>
+
+    <string name="str_time_remaning">Time remaning</string>
+
+    <string name="str_name">Name :</string>
+    <string name="str_alarm">Alarm</string>
+
+    <string name="str_ringtone">Ringtone :</string>
+    <string name="str_soundtype">Sound type :</string>
+    <string name="str_volume">Volume :</string>
+    <string name="str_repeat3times">Repeat 3 times after 5 minutes</string>
+
+    <string name="str_preview">PREVIEW ALARM</string>
+    <string name="str_cancel">CANCEL</string>
+    <string name="str_save">SAVE</string>
+
+    <string name="str_days">Days :</string>
+
+    <string name="str_Sunday">SUNDAY</string>
+    <string name="str_Monday">MONDAY</string>
+    <string name="str_Tuesday">TUESDAY</string>
+    <string name="str_Wednesday">WEDNESDAY</string>
+    <string name="str_Thursday">THURSDAY</string>
+    <string name="str_Friday">FRIDAY</string>
+    <string name="str_Saturday">SATURDAY</string>
+
+    <string name="str_Stop">STOP PREVIEW</string>
+
+
+</resources>

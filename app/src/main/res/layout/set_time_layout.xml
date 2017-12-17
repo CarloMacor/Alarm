@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <!-- Two button Ok Cancel -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/idCancelSetup"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"
+            android:textSize="20dp"
+            android:text="@string/str_cancel"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            />
+        <Button
+            android:id="@+id/idSaveSetup"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/str_save"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            />
+    </LinearLayout>
+
+
+
+    <!-- The Picker -->
+    <TimePicker
+        android:id="@+id/idtimePicker"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:timePickerMode="spinner"
+        />
+
+
+    <!-- Days -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text= "@string/str_days"
+            android:textSize="16dp"
+            android:textColor="@color/colorBlack"
+            />
+        <Button
+            android:id="@+id/idDay1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:background="@android:color/transparent"
+            android:text= "@string/day_s_0"  />
+        <Button
+            android:id="@+id/idDay2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:background="@android:color/transparent"
+            android:text="@string/day_s_1" />
+        <Button
+            android:id="@+id/idDay3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:background="@android:color/transparent"
+            android:text="@string/day_s_2"  />
+        <Button
+            android:id="@+id/idDay4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:background="@android:color/transparent"
+            android:text="@string/day_s_3"  />
+        <Button
+            android:id="@+id/idDay5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:background="@android:color/transparent"
+            android:text="@string/day_s_4"  />
+        <Button
+            android:id="@+id/idDay6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:background="@android:color/transparent"
+            android:text="@string/day_s_5"  />
+        <Button
+            android:id="@+id/idDay7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:background="@android:color/transparent"
+            android:layout_marginRight="16dp"
+            android:text="@string/day_s_6" />
+    </LinearLayout>
+
+    <!-- Name Alarm -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginLeft="16dp"
+            android:text=  "@string/str_name"
+            android:textSize="16dp"
+            android:textColor="@color/colorBlack"
+            />
+        <EditText
+            android:id="@+id/id_editnamealarm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:text="@string/str_alarm"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:maxLines="1"
+            android:layout_marginRight="16dp"
+            />
+    </LinearLayout>
+
+    <!-- Set Ringtone -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal"  >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:text="@string/str_ringtone"
+            android:textColor="@color/colorBlack"
+            android:layout_gravity="center_vertical"
+            />
+        <RadioGroup
+            android:id="@+id/idRadioRingtones"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:orientation="horizontal"
+            android:layout_marginRight="16dp">
+            <RadioButton
+                android:id="@+id/id_ring0"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text=""  />
+            <RadioButton
+                android:id="@+id/id_ring1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_weight="1" />
+            <RadioButton
+                android:id="@+id/id_ring2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_weight="1" />
+            <RadioButton
+                android:id="@+id/id_ring3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_weight="1" />
+            <RadioButton
+                android:id="@+id/id_ring4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_weight="1" />
+            <RadioButton
+                android:id="@+id/id_ring5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_weight="1" />
+            <RadioButton
+                android:id="@+id/id_ring6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_weight="1" />
+            <RadioButton
+                android:id="@+id/id_ring7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_weight="1" />
+            <RadioButton
+                android:id="@+id/id_ring8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_weight="1" />
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+    <!-- Kind Alarm -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1" >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="2"
+            android:text="@string/str_soundtype"
+            android:textSize="16dp"
+            android:textColor="@color/colorBlack"
+            android:layout_gravity="center_vertical" />
+
+        <ImageButton
+            android:id="@+id/idkind1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:alpha="1"
+            app:srcCompat="@drawable/phone_play"
+             />
+        <ImageButton
+            android:id="@+id/idkind2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:alpha="0.3"
+            app:srcCompat="@drawable/phone_play_vibre"
+            />
+        <ImageButton
+            android:id="@+id/idkind3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="16dp"
+            android:alpha="0.3"
+            app:srcCompat="@drawable/phone_vibre"
+            />
+
+    </LinearLayout>
+
+    <!-- Set Volume Alarm -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1" >
+        <TextView
+            android:id="@+id/idtxtseekbar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginLeft="16dp"
+            android:text="@string/str_volume"
+            android:textColor="@color/colorBlack"
+            android:layout_gravity="center_vertical"
+            />
+
+        <SeekBar
+            android:id="@+id/idSeekBarVolume"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="8dp"
+            android:layout_weight="8"
+            android:max="100" />
+    </LinearLayout>
+
+    <!-- Repeat each 5 min 3 times -->
+<!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginLeft="16dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="@string/str_repeat3times"
+            android:textColor="@color/colorBlack"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            />
+        <CheckBox
+            android:id="@+id/idFiveMinutes"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:text="On/Off" />
+
+    </LinearLayout>
+-->
+
+
+    <!-- Anteprima Button -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/idAnteprima"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:text="@string/str_preview"
+            android:textColor="@color/colorBlack"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
