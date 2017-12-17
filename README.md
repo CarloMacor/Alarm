@@ -13,7 +13,9 @@ Use Android Studio to open and deploy this project
 
 # Future 
 Direct to the target, nothing more than set the wake-up Hours.
+
 Follow the last design guide of Google.
+
 Fixed presents in notification about next Hour alarm
 
 # Interesting elements for novice developers
